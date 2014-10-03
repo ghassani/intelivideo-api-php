@@ -1,0 +1,21 @@
+{
+    "name" : "gidriss/intelivideo-api-php",
+    "keywords": [],
+    "homepage": "http://www.splicedmedia.com",
+    "license": "APACHE 2.0",
+    "authors" : [{
+        "name" : "Gassan Idriss",
+        "email" : "ghassani@splicedmedia.com"
+    }
+    ],
+    "require" : {
+        "guzzlehttp/guzzle": "4.*",
+        "firebase/php-jwt" : "dev-master"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Spliced\\IntelliVideo" : ""
+        }
+    },
+    "minimum-stability" : "dev"
+}
