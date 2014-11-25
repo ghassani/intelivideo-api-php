@@ -13,8 +13,8 @@
         "firebase/php-jwt" : "dev-master"
     },
     "autoload" : {
-        "psr-0" : {
-            "Spliced\\IntelliVideo" : ""
+        "psr-4" : {
+            "Spliced\\InteliVideo\\" : ""
         }
     },
     "minimum-stability" : "dev"
